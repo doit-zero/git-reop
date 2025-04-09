@@ -1,0 +1,6 @@
+token:
+  expiration_time: 860_400_00011
+  secret: thisissecretKeyforUserServiceIsThisSecretKeythisissecretKeyforUserServiceIsThisSecretKey
+
+gateway:
+  ip: 192.168.219.108
