@@ -1,5 +1,5 @@
 token:
-  expiration_time: 860_400_00011
+  expiration_time: 860_400_000111
   secret: thisissecretKeyforUserServiceIsThisSecretKeythisissecretKeyforUserServiceIsThisSecretKey
 
 gateway:

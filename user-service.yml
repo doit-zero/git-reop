@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/users
+    username: root
+    password: "{cipher}AYAVWb0yJ6qbIVlcBqGVeYaKd3cqTfUouJAfWz/cE2wNbO6ipZKIb7KNQZAY4oWl4WP7wjS2Rv/0pns/HE0dPlpQDnwgmmdgIqlImipKLL2rcsZwfFrxaREpBwgd3mJldh/4+g6pXSlIbELNiEfPP+5Y6j2ko93s+qYBAsObnavEtIzRidjWuZ4rq5IzyFuKRkuTVRJ+D7Ts8/0gCGJQ+Di3jqT1Npjcs2ycwBX6NUYj/By1or9QUoc/OjRYV5SFG632wvQ1OKs4qVS0oWJYwN+2/t/yEffLpR9tP79V1TCgOQkTrPASwrTvyuFAW3E6jsBDWMEJK0bf2UeN7de4OU6C6VIjFfTJn7aLEYLNEc2kfZsyjnsi1we1n7oyPGdrTECUT/jaXu7R5u4losJvCYYADFdseelDh9i/havDyMR2Awdyri/b2sEdLJ0AGud3C3Ntpkj7yqFUBt65j0WAvvesfMr8H0dgh4TFQpnq4H737vhufXn5dOENvOsw3fqeK1nOW9akjrqI2l9myh1srv4mdJb6sAoj+M9Mm2g6/OBROA=="
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+token:
+  expiration_time: 86400000
+  secret: "{cipher}AYBYGNNdDIl6nT6VA054b69eeidydoOBP2zxtD3ZwIPr+wkEMRx0eXWI4nmFMubg61ZqAUH36z8u7YWR4hraFVfcM58GxmzGUSdo119Hk6SX5a3rDtRW9hOI/d9aes7nMkB1tpXWBqR/UIbyzIgdqDsOaaJaRTysJu1rEppuM2e81YJr2dAwxKBBPD6/aS2MR9Z27miw9gYbvxk8RVjTXWBlQHWHAcTjQH5qP1ho92b5dISDVlBUXWPHKyANLix4m2S+PMyPk0t9aqfwBROum1VAFMolvsZi+A7TjEC5Ju/ySLKK7SixCd72epuTuXPMBh3tLZ2voiaxR3LCHAKBxzq16BiSERmTB/gFMjELLOROxUZlQcxACFgw+V0ZU3QWAvbjVYOdY/1SLdK1B3RzWE+Hh7tzCleoIcgPCI2dZP4G0GPN+yhig+mz8ZVWrWKVifJT70UhyJiPwtXvvUlcwokyq6spmmY6yTlp3QBXnirWU4T3jCby16acLC5piXOUZl0Ym4MLSa9yZHVX5w8JoNWp7q7myzeTrWRy7sOHD7kJsFcBIH20/x7eki6zSmcax57gqoL2evn7NtYRUHFegJZ4YYboOibtOMjITBenfK2Xp2s6XmD7UI5vmx4NgemUysKM3vOpi+qpCzfvKUjK/QSN"
+
+gateway:
+  ip: 192.168.219.108
+
+order_service:
+  url: "http://ORDER-SERVICE/order-service/%s/orders"
